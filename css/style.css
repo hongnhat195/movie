@@ -1,14 +1,3 @@
-/* Text-...: text(text-center, )
-Bg-...: background
-M-...: margin
-P: padding
-D: display
-Border-...
-rounded-..: border-radius
-btn-...:no-button 
-color: primary
-*/
-
 .header {
     position: absolute;
     top: 0;
@@ -99,6 +88,7 @@ color: primary
     margin-bottom: 2.5rem;
     position: relative;
     display: inline;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica;
 }
 
 .new .container>h1::after {
@@ -110,7 +100,7 @@ color: primary
     box-shadow: 0 0 20px 0 #fbbd61;
     position: absolute;
     left: 0;
-    bottom: -5px;
+    bottom: -15px;
 }
 
 .new .container .row {
